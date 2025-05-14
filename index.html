@@ -20,7 +20,7 @@
   </style>
 </head>
 <body>
-
+  <main>
   <!-- Rating state start -->
 <div class="main-container">
   <div class="icon">
@@ -32,7 +32,13 @@
   <p>Please let us know how we did with your support request. All feedback is appreciated 
   to help us improve our offering!</p>
   
- <div class="rating-buttons"> <button class="rating">1 </button> <button class="rating">2 </button> <button class="rating">3 </button> <button class="rating">4 </button> <button class="rating">5 </button> </div>
+ <div class="rating-buttons"> 
+  <button class="rating" data-value="1" aria-label="Rate 1 out of 5">1 </button> 
+  <button class="rating" data-value="2" aria-label="Rate 2 out of 5">2 </button>
+  <button class="rating" data-value="3" aria-label="Rate 3 out of 5">3 </button>
+  <button class="rating" data-value="4" aria-label="Rate 4 out of 5">4 </button>
+  <button class="rating" data-value="5" aria-label="Rate 5 out of 5">5 </button>
+</div>
 
   <button id="submit">Submit</button>
 
@@ -41,7 +47,7 @@
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
-<div class="thanks-container">
+<div class="thanks-container" id="thanks-container">
   <div class="text-thanks">
   <img src="./images/illustration-thank-you.svg" alt="illustration-thank-you" id="thank-you">
   
@@ -55,7 +61,7 @@
 
 </div></div>
   <!-- Thank you state end -->
-
+</main>
   <footer>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

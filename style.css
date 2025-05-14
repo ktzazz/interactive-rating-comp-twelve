@@ -97,7 +97,7 @@ body{
     color: var(--dark-grey);
 }
 
-.rating:active, #submit:active{
+.selected, #submit:active{
   background-color: var(--white);
   color: var(--dark-grey);
 }
@@ -146,7 +146,7 @@ p{
     color: var(--orange);
 }
 
-.thanks-container{
+#thanks-container{
     display: none;
 }
 
